@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.weather-card {
+    margin-top: 20px;
+}
+
+.forecast {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.day {
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 120px;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
